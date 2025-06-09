@@ -64,4 +64,4 @@ If you found this project interesting or helpful, leave a ⭐️ — it means a 
 
 ### 👩‍💻 Author
 
-**Magdalena MW** [LinkedIn](www.linkedin.com/in/magdalena-marszalek-wasilewska)
+**Magdalena MW** [LinkedIn](https://www.linkedin.com/in/magdalena-marszalek-wasilewska/?locale=en_US)
