@@ -1,0 +1,2960 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Air pollution emissions by fuel (Air pollution emissions by fuel (CEDS, 2022) (1))' inline='true' name='federated.0h4eof41088pb11dlizp60bnzjnj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Air pollution emissions by fuel (CEDS, 2022) (1)' name='excel-direct.0i3y3mn1gxbhwa1bjpzt90vm99au'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Nordzik/Desktop/Air pollution emissions by fuel (CEDS, 2022) (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0i3y3mn1gxbhwa1bjpzt90vm99au' name='Air pollution emissions by fuel' table='[&apos;Air pollution emissions by fuel$&apos;]' type='table'>
+          <columns gridOrigin='A1:BT10001:no:A1:BT10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='real' name='nox' ordinal='2' />
+            <column datatype='real' name='biomass_nox' ordinal='3' />
+            <column datatype='real' name='brown_coal_nox' ordinal='4' />
+            <column datatype='real' name='coal_coke_nox' ordinal='5' />
+            <column datatype='real' name='diesel_oil_nox' ordinal='6' />
+            <column datatype='real' name='hard_coal_nox' ordinal='7' />
+            <column datatype='real' name='heavy_oil_nox' ordinal='8' />
+            <column datatype='real' name='light_oil_nox' ordinal='9' />
+            <column datatype='real' name='natural_gas_nox' ordinal='10' />
+            <column datatype='real' name='process_nox' ordinal='11' />
+            <column datatype='real' name='so2' ordinal='12' />
+            <column datatype='real' name='biomass_so2' ordinal='13' />
+            <column datatype='real' name='brown_coal_so2' ordinal='14' />
+            <column datatype='real' name='coal_coke_so2' ordinal='15' />
+            <column datatype='real' name='diesel_oil_so2' ordinal='16' />
+            <column datatype='real' name='hard_coal_so2' ordinal='17' />
+            <column datatype='real' name='heavy_oil_so2' ordinal='18' />
+            <column datatype='real' name='light_oil_so2' ordinal='19' />
+            <column datatype='real' name='natural_gas_so2' ordinal='20' />
+            <column datatype='real' name='process_so2' ordinal='21' />
+            <column datatype='real' name='co' ordinal='22' />
+            <column datatype='real' name='biomass_co' ordinal='23' />
+            <column datatype='real' name='brown_coal_co' ordinal='24' />
+            <column datatype='real' name='coal_coke_co' ordinal='25' />
+            <column datatype='real' name='diesel_oil_co' ordinal='26' />
+            <column datatype='real' name='hard_coal_co' ordinal='27' />
+            <column datatype='real' name='heavy_oil_co' ordinal='28' />
+            <column datatype='real' name='light_oil_co' ordinal='29' />
+            <column datatype='real' name='natural_gas_co' ordinal='30' />
+            <column datatype='real' name='process_co' ordinal='31' />
+            <column datatype='real' name='oc' ordinal='32' />
+            <column datatype='real' name='biomass_oc' ordinal='33' />
+            <column datatype='real' name='brown_coal_oc' ordinal='34' />
+            <column datatype='real' name='coal_coke_oc' ordinal='35' />
+            <column datatype='real' name='diesel_oil_oc' ordinal='36' />
+            <column datatype='real' name='hard_coal_oc' ordinal='37' />
+            <column datatype='real' name='heavy_oil_oc' ordinal='38' />
+            <column datatype='real' name='light_oil_oc' ordinal='39' />
+            <column datatype='integer' name='natural_gas_oc' ordinal='40' />
+            <column datatype='real' name='process_oc' ordinal='41' />
+            <column datatype='real' name='nmvoc' ordinal='42' />
+            <column datatype='real' name='biomass_nmvoc' ordinal='43' />
+            <column datatype='real' name='brown_coal_nmvoc' ordinal='44' />
+            <column datatype='real' name='coal_coke_nmvoc' ordinal='45' />
+            <column datatype='real' name='diesel_oil_nmvoc' ordinal='46' />
+            <column datatype='real' name='hard_coal_nmvoc' ordinal='47' />
+            <column datatype='real' name='heavy_oil_nmvoc' ordinal='48' />
+            <column datatype='real' name='light_oil_nmvoc' ordinal='49' />
+            <column datatype='real' name='natural_gas_nmvoc' ordinal='50' />
+            <column datatype='real' name='process_nmvoc' ordinal='51' />
+            <column datatype='real' name='bc' ordinal='52' />
+            <column datatype='real' name='biomass_bc' ordinal='53' />
+            <column datatype='real' name='brown_coal_bc' ordinal='54' />
+            <column datatype='real' name='coal_coke_bc' ordinal='55' />
+            <column datatype='real' name='diesel_oil_bc' ordinal='56' />
+            <column datatype='real' name='hard_coal_bc' ordinal='57' />
+            <column datatype='real' name='heavy_oil_bc' ordinal='58' />
+            <column datatype='real' name='light_oil_bc' ordinal='59' />
+            <column datatype='integer' name='natural_gas_bc' ordinal='60' />
+            <column datatype='real' name='process_bc' ordinal='61' />
+            <column datatype='real' name='nh3' ordinal='62' />
+            <column datatype='real' name='biomass_nh3' ordinal='63' />
+            <column datatype='real' name='brown_coal_nh3' ordinal='64' />
+            <column datatype='integer' name='coal_coke_nh3' ordinal='65' />
+            <column datatype='real' name='diesel_oil_nh3' ordinal='66' />
+            <column datatype='real' name='hard_coal_nh3' ordinal='67' />
+            <column datatype='real' name='heavy_oil_nh3' ordinal='68' />
+            <column datatype='real' name='light_oil_nh3' ordinal='69' />
+            <column datatype='real' name='natural_gas_nh3' ordinal='70' />
+            <column datatype='real' name='process_nh3' ordinal='71' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0i3y3mn1gxbhwa1bjpzt90vm99au' name='Air pollution emissions by fuel' table='[&apos;Air pollution emissions by fuel$&apos;]' type='table'>
+          <columns gridOrigin='A1:BT10001:no:A1:BT10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Entity' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='real' name='nox' ordinal='2' />
+            <column datatype='real' name='biomass_nox' ordinal='3' />
+            <column datatype='real' name='brown_coal_nox' ordinal='4' />
+            <column datatype='real' name='coal_coke_nox' ordinal='5' />
+            <column datatype='real' name='diesel_oil_nox' ordinal='6' />
+            <column datatype='real' name='hard_coal_nox' ordinal='7' />
+            <column datatype='real' name='heavy_oil_nox' ordinal='8' />
+            <column datatype='real' name='light_oil_nox' ordinal='9' />
+            <column datatype='real' name='natural_gas_nox' ordinal='10' />
+            <column datatype='real' name='process_nox' ordinal='11' />
+            <column datatype='real' name='so2' ordinal='12' />
+            <column datatype='real' name='biomass_so2' ordinal='13' />
+            <column datatype='real' name='brown_coal_so2' ordinal='14' />
+            <column datatype='real' name='coal_coke_so2' ordinal='15' />
+            <column datatype='real' name='diesel_oil_so2' ordinal='16' />
+            <column datatype='real' name='hard_coal_so2' ordinal='17' />
+            <column datatype='real' name='heavy_oil_so2' ordinal='18' />
+            <column datatype='real' name='light_oil_so2' ordinal='19' />
+            <column datatype='real' name='natural_gas_so2' ordinal='20' />
+            <column datatype='real' name='process_so2' ordinal='21' />
+            <column datatype='real' name='co' ordinal='22' />
+            <column datatype='real' name='biomass_co' ordinal='23' />
+            <column datatype='real' name='brown_coal_co' ordinal='24' />
+            <column datatype='real' name='coal_coke_co' ordinal='25' />
+            <column datatype='real' name='diesel_oil_co' ordinal='26' />
+            <column datatype='real' name='hard_coal_co' ordinal='27' />
+            <column datatype='real' name='heavy_oil_co' ordinal='28' />
+            <column datatype='real' name='light_oil_co' ordinal='29' />
+            <column datatype='real' name='natural_gas_co' ordinal='30' />
+            <column datatype='real' name='process_co' ordinal='31' />
+            <column datatype='real' name='oc' ordinal='32' />
+            <column datatype='real' name='biomass_oc' ordinal='33' />
+            <column datatype='real' name='brown_coal_oc' ordinal='34' />
+            <column datatype='real' name='coal_coke_oc' ordinal='35' />
+            <column datatype='real' name='diesel_oil_oc' ordinal='36' />
+            <column datatype='real' name='hard_coal_oc' ordinal='37' />
+            <column datatype='real' name='heavy_oil_oc' ordinal='38' />
+            <column datatype='real' name='light_oil_oc' ordinal='39' />
+            <column datatype='integer' name='natural_gas_oc' ordinal='40' />
+            <column datatype='real' name='process_oc' ordinal='41' />
+            <column datatype='real' name='nmvoc' ordinal='42' />
+            <column datatype='real' name='biomass_nmvoc' ordinal='43' />
+            <column datatype='real' name='brown_coal_nmvoc' ordinal='44' />
+            <column datatype='real' name='coal_coke_nmvoc' ordinal='45' />
+            <column datatype='real' name='diesel_oil_nmvoc' ordinal='46' />
+            <column datatype='real' name='hard_coal_nmvoc' ordinal='47' />
+            <column datatype='real' name='heavy_oil_nmvoc' ordinal='48' />
+            <column datatype='real' name='light_oil_nmvoc' ordinal='49' />
+            <column datatype='real' name='natural_gas_nmvoc' ordinal='50' />
+            <column datatype='real' name='process_nmvoc' ordinal='51' />
+            <column datatype='real' name='bc' ordinal='52' />
+            <column datatype='real' name='biomass_bc' ordinal='53' />
+            <column datatype='real' name='brown_coal_bc' ordinal='54' />
+            <column datatype='real' name='coal_coke_bc' ordinal='55' />
+            <column datatype='real' name='diesel_oil_bc' ordinal='56' />
+            <column datatype='real' name='hard_coal_bc' ordinal='57' />
+            <column datatype='real' name='heavy_oil_bc' ordinal='58' />
+            <column datatype='real' name='light_oil_bc' ordinal='59' />
+            <column datatype='integer' name='natural_gas_bc' ordinal='60' />
+            <column datatype='real' name='process_bc' ordinal='61' />
+            <column datatype='real' name='nh3' ordinal='62' />
+            <column datatype='real' name='biomass_nh3' ordinal='63' />
+            <column datatype='real' name='brown_coal_nh3' ordinal='64' />
+            <column datatype='integer' name='coal_coke_nh3' ordinal='65' />
+            <column datatype='real' name='diesel_oil_nh3' ordinal='66' />
+            <column datatype='real' name='hard_coal_nh3' ordinal='67' />
+            <column datatype='real' name='heavy_oil_nh3' ordinal='68' />
+            <column datatype='real' name='light_oil_nh3' ordinal='69' />
+            <column datatype='real' name='natural_gas_nh3' ordinal='70' />
+            <column datatype='real' name='process_nh3' ordinal='71' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BT10001:no:A1:BT2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPL_RPL_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPL_RPL_S2' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>nox</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_nox</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_nox</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_nox</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_nox</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_nox</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_nox</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_nox</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[natural_gas_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_nox</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_nox</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_nox]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_nox</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>so2</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_so2</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_so2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_so2</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_so2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_so2</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_so2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_so2</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[natural_gas_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_so2</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_so2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_so2]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_so2</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>co</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_co</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_co</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_co</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_co</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_co</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_co</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_co</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[natural_gas_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_co</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_co</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_co]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_co</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>oc</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_oc</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_oc</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_oc</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_oc</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_oc</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_oc</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_oc</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_oc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natural_gas_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_oc</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_oc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_oc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_oc</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>nmvoc</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_nmvoc</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_nmvoc</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_nmvoc</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_nmvoc</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_nmvoc</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_nmvoc</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_nmvoc</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[natural_gas_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_nmvoc</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_nmvoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_nmvoc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_nmvoc</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>bc</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_bc</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_bc</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[coal_coke_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_bc</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_bc</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_bc</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_bc</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_bc</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_bc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natural_gas_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_bc</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_bc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_bc]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_bc</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>nh3</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biomass_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[biomass_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>biomass_nh3</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brown_coal_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[brown_coal_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>brown_coal_nh3</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coal_coke_nh3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[coal_coke_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>coal_coke_nh3</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diesel_oil_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[diesel_oil_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>diesel_oil_nh3</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hard_coal_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hard_coal_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>hard_coal_nh3</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heavy_oil_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[heavy_oil_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>heavy_oil_nh3</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>light_oil_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[light_oil_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>light_oil_nh3</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natural_gas_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[natural_gas_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>natural_gas_nh3</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>process_nh3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[process_nh3]</local-name>
+            <parent-name>[Air pollution emissions by fuel]</parent-name>
+            <remote-alias>process_nh3</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Entity]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Air pollution emissions by fuel' datatype='table' name='[__tableau_internal_object_id__].[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]' role='measure' type='quantitative' />
+      <column datatype='real' name='[bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[biomass_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[brown_coal_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_co]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[coal_coke_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[coal_coke_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[diesel_oil_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[hard_coal_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[heavy_oil_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[light_oil_so2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[natural_gas_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[natural_gas_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[natural_gas_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[natural_gas_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[natural_gas_nox]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[natural_gas_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[natural_gas_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_bc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_co]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_nh3]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_nmvoc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_nox]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_oc]' role='measure' type='quantitative' />
+      <column datatype='real' name='[process_so2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[so2]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[bc]' derivation='Sum' name='[sum:bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_bc]' derivation='Sum' name='[sum:biomass_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_co]' derivation='Sum' name='[sum:biomass_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_nh3]' derivation='Sum' name='[sum:biomass_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_nmvoc]' derivation='Sum' name='[sum:biomass_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_nox]' derivation='Sum' name='[sum:biomass_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_oc]' derivation='Sum' name='[sum:biomass_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[biomass_so2]' derivation='Sum' name='[sum:biomass_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_bc]' derivation='Sum' name='[sum:brown_coal_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_co]' derivation='Sum' name='[sum:brown_coal_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_nh3]' derivation='Sum' name='[sum:brown_coal_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_nmvoc]' derivation='Sum' name='[sum:brown_coal_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_nox]' derivation='Sum' name='[sum:brown_coal_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_oc]' derivation='Sum' name='[sum:brown_coal_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[brown_coal_so2]' derivation='Sum' name='[sum:brown_coal_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[co]' derivation='Sum' name='[sum:co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_bc]' derivation='Sum' name='[sum:coal_coke_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_co]' derivation='Sum' name='[sum:coal_coke_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_nh3]' derivation='Sum' name='[sum:coal_coke_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_nmvoc]' derivation='Sum' name='[sum:coal_coke_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_nox]' derivation='Sum' name='[sum:coal_coke_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_oc]' derivation='Sum' name='[sum:coal_coke_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[coal_coke_so2]' derivation='Sum' name='[sum:coal_coke_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_bc]' derivation='Sum' name='[sum:diesel_oil_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_co]' derivation='Sum' name='[sum:diesel_oil_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_nh3]' derivation='Sum' name='[sum:diesel_oil_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_nmvoc]' derivation='Sum' name='[sum:diesel_oil_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_nox]' derivation='Sum' name='[sum:diesel_oil_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_oc]' derivation='Sum' name='[sum:diesel_oil_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[diesel_oil_so2]' derivation='Sum' name='[sum:diesel_oil_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_bc]' derivation='Sum' name='[sum:hard_coal_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_co]' derivation='Sum' name='[sum:hard_coal_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_nh3]' derivation='Sum' name='[sum:hard_coal_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_nmvoc]' derivation='Sum' name='[sum:hard_coal_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_nox]' derivation='Sum' name='[sum:hard_coal_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_oc]' derivation='Sum' name='[sum:hard_coal_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hard_coal_so2]' derivation='Sum' name='[sum:hard_coal_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_bc]' derivation='Sum' name='[sum:heavy_oil_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_co]' derivation='Sum' name='[sum:heavy_oil_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_nh3]' derivation='Sum' name='[sum:heavy_oil_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_nmvoc]' derivation='Sum' name='[sum:heavy_oil_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_nox]' derivation='Sum' name='[sum:heavy_oil_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_oc]' derivation='Sum' name='[sum:heavy_oil_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heavy_oil_so2]' derivation='Sum' name='[sum:heavy_oil_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_bc]' derivation='Sum' name='[sum:light_oil_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_co]' derivation='Sum' name='[sum:light_oil_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_nh3]' derivation='Sum' name='[sum:light_oil_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_nmvoc]' derivation='Sum' name='[sum:light_oil_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_nox]' derivation='Sum' name='[sum:light_oil_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_oc]' derivation='Sum' name='[sum:light_oil_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[light_oil_so2]' derivation='Sum' name='[sum:light_oil_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_bc]' derivation='Sum' name='[sum:natural_gas_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_co]' derivation='Sum' name='[sum:natural_gas_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_nh3]' derivation='Sum' name='[sum:natural_gas_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_nmvoc]' derivation='Sum' name='[sum:natural_gas_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_nox]' derivation='Sum' name='[sum:natural_gas_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_oc]' derivation='Sum' name='[sum:natural_gas_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[natural_gas_so2]' derivation='Sum' name='[sum:natural_gas_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[nh3]' derivation='Sum' name='[sum:nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[nmvoc]' derivation='Sum' name='[sum:nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[nox]' derivation='Sum' name='[sum:nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oc]' derivation='Sum' name='[sum:oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_bc]' derivation='Sum' name='[sum:process_bc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_co]' derivation='Sum' name='[sum:process_co:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_nh3]' derivation='Sum' name='[sum:process_nh3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_nmvoc]' derivation='Sum' name='[sum:process_nmvoc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_nox]' derivation='Sum' name='[sum:process_nox:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_oc]' derivation='Sum' name='[sum:process_oc:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[process_so2]' derivation='Sum' name='[sum:process_so2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[so2]' derivation='Sum' name='[sum:so2:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Nordzik/AppData/Local/Temp/TableauTemp/#TableauTemp_1g5f57g0ae5poy18l5hiq1sd8weo.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/08/2025 01:25:58 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Entity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Entity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Entity</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>278</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LPL_RPL' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>453</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nox</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56399</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_nox</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_nox</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_nox</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11321</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_nox</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_nox</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20317</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_nox</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_nox</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[natural_gas_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_nox</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_nox</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_nox]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_nox</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52293</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>so2</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30802</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_so2</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_so2</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_so2</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11212</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_so2</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_so2</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13280</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_so2</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19304</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_so2</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14703</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[natural_gas_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_so2</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_so2</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_so2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_so2</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23229</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>co</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30802</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_co</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_co</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_co</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11321</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_co</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_co</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13280</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_co</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_co</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[natural_gas_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_co</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_co</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_co]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_co</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31397</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>oc</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25568</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_oc</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_oc</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_oc</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11321</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_oc</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_oc</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20317</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_oc</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_oc</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_oc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[natural_gas_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_oc</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_oc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_oc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_oc</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21876</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nmvoc</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30802</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_nmvoc</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_nmvoc</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_nmvoc</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17898</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_nmvoc</remote-alias>
+              <ordinal>46</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_nmvoc</remote-alias>
+              <ordinal>47</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13280</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_nmvoc</remote-alias>
+              <ordinal>48</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_nmvoc</remote-alias>
+              <ordinal>49</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[natural_gas_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_nmvoc</remote-alias>
+              <ordinal>50</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_nmvoc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_nmvoc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_nmvoc</remote-alias>
+              <ordinal>51</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52698</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bc</remote-alias>
+              <ordinal>52</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25568</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_bc</remote-alias>
+              <ordinal>53</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_bc</remote-alias>
+              <ordinal>54</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[coal_coke_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_bc</remote-alias>
+              <ordinal>55</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11321</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_bc</remote-alias>
+              <ordinal>56</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_bc</remote-alias>
+              <ordinal>57</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13280</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_bc</remote-alias>
+              <ordinal>58</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_bc</remote-alias>
+              <ordinal>59</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_bc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[natural_gas_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_bc</remote-alias>
+              <ordinal>60</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_bc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_bc</remote-alias>
+              <ordinal>61</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21876</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nh3</remote-alias>
+              <ordinal>62</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30802</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>biomass_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[biomass_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>biomass_nh3</remote-alias>
+              <ordinal>63</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56336</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brown_coal_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[brown_coal_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>brown_coal_nh3</remote-alias>
+              <ordinal>64</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>coal_coke_nh3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[coal_coke_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>coal_coke_nh3</remote-alias>
+              <ordinal>65</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diesel_oil_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[diesel_oil_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diesel_oil_nh3</remote-alias>
+              <ordinal>66</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25972</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hard_coal_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hard_coal_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hard_coal_nh3</remote-alias>
+              <ordinal>67</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20317</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heavy_oil_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[heavy_oil_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heavy_oil_nh3</remote-alias>
+              <ordinal>68</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25369</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>light_oil_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[light_oil_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>light_oil_nh3</remote-alias>
+              <ordinal>69</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26039</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>natural_gas_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[natural_gas_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>natural_gas_nh3</remote-alias>
+              <ordinal>70</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12432</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>process_nh3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[process_nh3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>process_nh3</remote-alias>
+              <ordinal>71</ordinal>
+              <family>Air pollution emissions by fuel</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56242</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='tableau20_10_0' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_co:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nox:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:bc:qk]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_co:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_co:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_co:qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:so2:qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:coal_coke_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_co:qk]&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:natural_gas_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:diesel_oil_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:process_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[__tableau_internal_object_id__].[cnt:Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_co:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:hard_coal_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_so2:qk]&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nox:qk]:1&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:co:qk]&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_bc:qk]&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_oc:qk]&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:light_oil_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_co:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:biomass_nox:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_co:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:heavy_oil_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_co:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_nh3:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:brown_coal_nmvoc:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:oc:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Air pollution emissions by fuel' id='Air pollution emissions by fuel_76BBA6EC300246DD904FA9695F8BB2C4'>
+            <properties context=''>
+              <relation connection='excel-direct.0i3y3mn1gxbhwa1bjpzt90vm99au' name='Air pollution emissions by fuel' table='[&apos;Air pollution emissions by fuel$&apos;]' type='table'>
+                <columns gridOrigin='A1:BT10001:no:A1:BT10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Entity' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+                  <column datatype='real' name='nox' ordinal='2' />
+                  <column datatype='real' name='biomass_nox' ordinal='3' />
+                  <column datatype='real' name='brown_coal_nox' ordinal='4' />
+                  <column datatype='real' name='coal_coke_nox' ordinal='5' />
+                  <column datatype='real' name='diesel_oil_nox' ordinal='6' />
+                  <column datatype='real' name='hard_coal_nox' ordinal='7' />
+                  <column datatype='real' name='heavy_oil_nox' ordinal='8' />
+                  <column datatype='real' name='light_oil_nox' ordinal='9' />
+                  <column datatype='real' name='natural_gas_nox' ordinal='10' />
+                  <column datatype='real' name='process_nox' ordinal='11' />
+                  <column datatype='real' name='so2' ordinal='12' />
+                  <column datatype='real' name='biomass_so2' ordinal='13' />
+                  <column datatype='real' name='brown_coal_so2' ordinal='14' />
+                  <column datatype='real' name='coal_coke_so2' ordinal='15' />
+                  <column datatype='real' name='diesel_oil_so2' ordinal='16' />
+                  <column datatype='real' name='hard_coal_so2' ordinal='17' />
+                  <column datatype='real' name='heavy_oil_so2' ordinal='18' />
+                  <column datatype='real' name='light_oil_so2' ordinal='19' />
+                  <column datatype='real' name='natural_gas_so2' ordinal='20' />
+                  <column datatype='real' name='process_so2' ordinal='21' />
+                  <column datatype='real' name='co' ordinal='22' />
+                  <column datatype='real' name='biomass_co' ordinal='23' />
+                  <column datatype='real' name='brown_coal_co' ordinal='24' />
+                  <column datatype='real' name='coal_coke_co' ordinal='25' />
+                  <column datatype='real' name='diesel_oil_co' ordinal='26' />
+                  <column datatype='real' name='hard_coal_co' ordinal='27' />
+                  <column datatype='real' name='heavy_oil_co' ordinal='28' />
+                  <column datatype='real' name='light_oil_co' ordinal='29' />
+                  <column datatype='real' name='natural_gas_co' ordinal='30' />
+                  <column datatype='real' name='process_co' ordinal='31' />
+                  <column datatype='real' name='oc' ordinal='32' />
+                  <column datatype='real' name='biomass_oc' ordinal='33' />
+                  <column datatype='real' name='brown_coal_oc' ordinal='34' />
+                  <column datatype='real' name='coal_coke_oc' ordinal='35' />
+                  <column datatype='real' name='diesel_oil_oc' ordinal='36' />
+                  <column datatype='real' name='hard_coal_oc' ordinal='37' />
+                  <column datatype='real' name='heavy_oil_oc' ordinal='38' />
+                  <column datatype='real' name='light_oil_oc' ordinal='39' />
+                  <column datatype='integer' name='natural_gas_oc' ordinal='40' />
+                  <column datatype='real' name='process_oc' ordinal='41' />
+                  <column datatype='real' name='nmvoc' ordinal='42' />
+                  <column datatype='real' name='biomass_nmvoc' ordinal='43' />
+                  <column datatype='real' name='brown_coal_nmvoc' ordinal='44' />
+                  <column datatype='real' name='coal_coke_nmvoc' ordinal='45' />
+                  <column datatype='real' name='diesel_oil_nmvoc' ordinal='46' />
+                  <column datatype='real' name='hard_coal_nmvoc' ordinal='47' />
+                  <column datatype='real' name='heavy_oil_nmvoc' ordinal='48' />
+                  <column datatype='real' name='light_oil_nmvoc' ordinal='49' />
+                  <column datatype='real' name='natural_gas_nmvoc' ordinal='50' />
+                  <column datatype='real' name='process_nmvoc' ordinal='51' />
+                  <column datatype='real' name='bc' ordinal='52' />
+                  <column datatype='real' name='biomass_bc' ordinal='53' />
+                  <column datatype='real' name='brown_coal_bc' ordinal='54' />
+                  <column datatype='real' name='coal_coke_bc' ordinal='55' />
+                  <column datatype='real' name='diesel_oil_bc' ordinal='56' />
+                  <column datatype='real' name='hard_coal_bc' ordinal='57' />
+                  <column datatype='real' name='heavy_oil_bc' ordinal='58' />
+                  <column datatype='real' name='light_oil_bc' ordinal='59' />
+                  <column datatype='integer' name='natural_gas_bc' ordinal='60' />
+                  <column datatype='real' name='process_bc' ordinal='61' />
+                  <column datatype='real' name='nh3' ordinal='62' />
+                  <column datatype='real' name='biomass_nh3' ordinal='63' />
+                  <column datatype='real' name='brown_coal_nh3' ordinal='64' />
+                  <column datatype='integer' name='coal_coke_nh3' ordinal='65' />
+                  <column datatype='real' name='diesel_oil_nh3' ordinal='66' />
+                  <column datatype='real' name='hard_coal_nh3' ordinal='67' />
+                  <column datatype='real' name='heavy_oil_nh3' ordinal='68' />
+                  <column datatype='real' name='light_oil_nh3' ordinal='69' />
+                  <column datatype='real' name='natural_gas_nh3' ordinal='70' />
+                  <column datatype='real' name='process_nh3' ordinal='71' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_C84DE87FE4004FA286443030E3F05624]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='all' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='all' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='all'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Air pollution emissions by fuel (Air pollution emissions by fuel (CEDS, 2022) (1))' name='federated.0h4eof41088pb11dlizp60bnzjnj' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0h4eof41088pb11dlizp60bnzjnj'>
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[bc]' role='measure' type='quantitative' />
+            <column datatype='real' name='[co]' role='measure' type='quantitative' />
+            <column datatype='real' name='[nh3]' role='measure' type='quantitative' />
+            <column datatype='real' name='[nmvoc]' role='measure' type='quantitative' />
+            <column datatype='real' name='[nox]' role='measure' type='quantitative' />
+            <column datatype='real' name='[oc]' role='measure' type='quantitative' />
+            <column datatype='real' name='[so2]' role='measure' type='quantitative' />
+            <column-instance column='[bc]' derivation='Sum' name='[sum:bc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[co]' derivation='Sum' name='[sum:co:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nh3]' derivation='Sum' name='[sum:nh3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nmvoc]' derivation='Sum' name='[sum:nmvoc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[nox]' derivation='Sum' name='[sum:nox:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[oc]' derivation='Sum' name='[sum:oc:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[so2]' derivation='Sum' name='[sum:so2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:bc:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:co:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nh3:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nmvoc:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:nox:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:oc:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0h4eof41088pb11dlizp60bnzjnj].[sum:so2:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]' direction='ASC' />
+          <slices>
+            <column>[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0h4eof41088pb11dlizp60bnzjnj].[tyr:Year:qk]' scope='cols' value='Year' />
+            <format attr='title' class='0' field='[federated.0h4eof41088pb11dlizp60bnzjnj].[Multiple Values]' scope='rows' value='Emission [t]' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]' value='Emission types'>
+              <formatted-text>
+                <run>Emission types</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0h4eof41088pb11dlizp60bnzjnj].[Multiple Values]</rows>
+        <cols>[federated.0h4eof41088pb11dlizp60bnzjnj].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{F0CB49A6-2747-4914-8F30-8CE12D5059B6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='all'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0h4eof41088pb11dlizp60bnzjnj].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0h4eof41088pb11dlizp60bnzjnj].[none:Entity:nk]</field>
+            <field>[federated.0h4eof41088pb11dlizp60bnzjnj].[tyr:Year:qk]</field>
+            <field>[federated.0h4eof41088pb11dlizp60bnzjnj].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E3ED7E66-59E6-4CBE-AA18-0A949C485C53}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='all' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAALn0lEQVR4nO3dWW8cV36G8efU1nuTzUWURC2j8cRJZjAOkotMAgTJXb5mPkNykeQ2FwEG
+      MZJgZmCPnTEoS6ONpLj1VtVVZ8kFadmBOEDboSg1z/sDhIaIBnUI9dOsU6w/y4QQAiKRSq7y
+      k6klWTVXGoD3/io/ncg7d6UBiKyabJkn2WbKZ589YWdzyGnt6eeOuU1pyimP7m7ybGz4+OHO
+      u16ryJVbKgCcx6SB0npcOaMuhnTyQFpZ9l6d0u+v4ZzDe699gKyUpQIIpLSLnH6/Q+M8w1ZK
+      6VJ27j1kWla0O33SNAV48yiyCsxVngZ1zikAWSnaBEvUFIBETQFI1BSARE0BSNQUgERNAUjU
+      FIBETQFI1BSARE0BSNQUgERNAUjUlroc2nvL3ld73N69y+nZjFEvZ+5S0mBZG3YZzz2jtd67
+      XqvIlVtuIqw84WTmyV4fUYTAs7qiRWB8dMh0c0RJl2G/rYEYWTlLBWDSLr38OdMp2MbSHxTM
+      bcrWrU1en85ZH2kgRlaTBmIkatoES9QUgERNAUjUFIBETQFI1BSARE0BSNQUgERNAUjUFIBE
+      TQFI1BSARE0BSNSWu0EG0NQ1SWKYlQu67QIXDIZAnqU0LlDkS38qkQ/GcjfI8JZf/fJTNh7c
+      xlKQuYraGWanR9zf3eagLPjZR7uEEHSjPFkpSwUwOT6gtBaX5Ixf7jPYHpEmhu2tNZ4fzRiN
+      Om8mwTQRJqtk6YEY2zQEPJPZgn47o/YJ7SLFOU+SpOR5poEYWTmaCJOo6SyQRE0BSNQUgERN
+      AUjUFIBETQFI1BSARE0BSNQUgERNAUjUFIBETQFI1BSARG25Ma4Q2PviS4Y7mxwcnrHRP79B
+      hm9K7u2s83IMj3a33vFSRa7eUgHMzg558eqQeavFnV6LI2/oJJ6ymvD4haPVGeKc0y2SZOUs
+      NQ/Q1Av2n78g63U4OZ2z0T+/Sd6oVzCezun219jaWNM8gKwcDcRI1LQJlqgpAImaApCoKQCJ
+      mgKQqCkAiZoCkKgpAImaApCoKQCJmgKQqCkAiZoCkKgtNQ/gneXg8IiN0ZDXxxM21nvUPiHF
+      02kXVLWn22m967WKXLmlLod2dcWX//NbnGvR3VgntRXWw+T4Nbdvb3LStPmTH93BOUeS6JuK
+      rI6lvgM4ZyFAZ9Dj5OUL+htD8AlbW+vsH89Y3+hijMEYowBkpSz1HSB4R1nVtFo5jXXkaYIP
+      hjQ1BA8khjRJNBAjK0cTYRI1Ha9I1BSARE0BSNQUgERNAUjUFIBETQFI1BSARE0BSNQUgERN
+      AUjUFIBE7a3LofefPeHwdAJA3u7zxz/50XWvSeTavBWANzm3tm+REZg0DgC7mPHZ55+TddZp
+      yoreoKC2CeX4hB8/vMXzccbP/+jetS9e5P/rrQC2ttf553/6F0Z3HvBXv/jz8w8mGf1el0ll
+      2R71mZLQywL9tM/Tgynr65u6RZKspLfmAX7zn5/SmPNr+idzy9/9zV9i65Inz15xb/c2r48n
+      jHo5c5cx6GTUjSXLCzrtluYBZOVcOhBzfPCcx8+O+bO/+PmSt5E8pwBk1Vx6FujL335B0zTX
+      vRaRa3dpAPcf3KNcLHSOVG68S1/jk/EUW1bY616NyDV7KwDvFziX0O51Me9jRSLX6K0AkqSF
+      MZaj/QPc+1iRyDW69BBobfMW/X77e50BEllFlwZgFzN6ww30Iy256S7dAxy+es3jr5/i38eK
+      RK7RpXsA5xesrw+1CZYb79JDIOcCw8FAAciN99Y+9/XTZzz4yU8BcEB+3SsSuUZvBdBUYz79
+      zRckSZu/f6BLnOVm02+HlqgtdarfLub8bu8xnbxDZVL6uWNuU5pyyqO7mzwbGz5+uPOu1ypy
+      5ZYKIMlzBr0BRatgdnhMXQzp5IG0suy9OqXfX9NAjKykpQJo5hPOZhVbrYK83WHYSildys69
+      h0znFe1u/82hjw6BZJVoDyBR0yX/EjUFIFFTABI1BSBRUwASNQUgUVMAEjUFIFFTABI1BSBR
+      UwASNQUgUVMAErWlB2K+evyUjdGI4/GczUHB3CYEu+Du9hr748D9Oxvveq0iV26pANKizfqw
+      x+m0ZLuTcdQEOlhm42O+bmrS1kADMbKSlgpgMTni1dGUWxsDXo1LRoOc0qbcurPL6WRGv9vW
+      QIysJA3ESNS0CZaoKQCJmgKQqCkAiZoCkKgpAImaApCoKQCJmgKQqCkAiZoCkKgpAImaApCo
+      LXU5dAiBpmnIEsO0XNBtF7hgMATyLKVxgSLXfeVl9SwXgF2w9+QFa3lgQkHmKmpnmJ0ecX93
+      m4Oy4Gcf7RJCwHvdXltWx3Jv20lGGhxZp8/46+cMtkekqWF7a43nRzNGo86bSTBNhMkqWWog
+      xtuag9fHDAYDFo2j386ofUK7SHHOkyQpeZ5pIEZWjibCJGo6CyRRUwASNQUgUVMAEjUFIFFT
+      ABI1BSBRUwASNQUgUVMAEjUFIFFTABI1BSBRW2oewDcVj58fsj1s8+zwjI1+wdym+Kbk3s46
+      L8fwaHfrXa9V5MotFUCSt+m2MsbzBTu9Fkfe0Ek8ZTnh8QtHqzPULZJkJS19k7yD/QNu3dri
+      YFqz0c+Zu5Rbu/cZT+d0+13dIklWkgZiJGraBEvUFIBETQFI1BSARE0BSNQUgERNAUjUFIBE
+      qW4cIYQlfzeoyA0yLWv+4V9/xU8fbikAublCCFS15eXxlCf7Z5RVQwiBx/tjPlqb8dVzp0sh
+      5P2rG8ev9/b55Mc7FHmK857ZxYvV+4Axhm4rY/9kxr/9+inOe/76T++xs9GjXFj2Xp7wX18d
+      MOgUAFSNo7YOH8D5QLswjNqBdurxIXA7O+WTxX8wSdYVgFydEALOBxrraKynXDSM5wumZcO0
+      qrHW4YOnaSxVVeEDGGMozw752PyOz+xH5P1N6tkpeXOGIWAMeBLm9Ogy52+Hexhj+PfpI05c
+      nyzx3GnN+aT9e6bJGo6MgpoUiwFaoaTrJhShxnD+UjcmYC7WrADk/wgh0FjPrKppnKduHFVt
+      mS8ayoVl0TQ0dY2tFzi7wDU1wdX4poJmTuJqslCT0dBOLP20oZs2dFNLbjwQyIynZez5v4ch
+      xZMZjyPBk5DgSPn2ZRkunkeAxHxzHwrwGIzhPJQf+PV+rwDK8Qm/Pxyzvd6mtCnGN2yP+hxN
+      PTtbawrgAxdCoG4ck7JmPFtwNqsYz+Y01QxbjvHVGBZTMjejTUVuHLnxdFJLK3F0EkuReHLj
+      SE0gIbx5N/2hL8D37Xttgs/OzsAYxvMaEwKTowPK+Tou67E16msg5h3wITCvmvMX7HzBeFqy
+      mE8IzgIB7913nnx+iBG8g+AxhPP/D28JTQWLMbmf0zMVg7RmM6t5kFpy48hMgCRAZ8mFhW8f
+      w3f+umq+VwC9wYDDpy/JBh0an7J9+zbHZzOGvexGDsSEEKito1xYGudpLjZXi8ZSW0/dWKx1
+      ONvgXIO3DcFZQvCYNCdJM9I0w2Q56cVddPI0pchTiiyhyFPyNAUDp5OK4/GUqpzhqil2fgr1
+      BFNP6IY5w7RimNXczRpaifv2XffikOC778BvvRsboLj48wet8vv4D6c9AN+eLjs8m3NwPGE6
+      PsZOj/Cz1+SLEzrJ4s3hQGEcReLPDwUSR2Y8KefHpsl3NlcB8MG8efTB0ISEJiTU/pvHlCYk
+      GKCf1mwWCwrjSY0nie+1+F7cyABCCPiLL8v780fnw5uzFIenM16fTZmdHdNMjzCzA1rNCZvZ
+      jK2ioptaUvPDN1ayOj6oAKr5lF/+9+f44ME7CA6cw3uLeXNsazHeX3zMgXcEwvnzCeD9xVmB
+      80dCIMFjgMScn21YT0u2i4p2enHsK9H6oH4SnJf7/GLyj5Bml7/7fnPl0vv/JiM3xAd4MZwO
+      PeT6fIABiFwfBSBRUwASNQUgUVMAEjUFIFH7oH4OIPEKrsYkOZg/fBI8hAC2AsDky161d8nn
+      8R7TTAkm4X8BQzmHk/DQzzoAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
